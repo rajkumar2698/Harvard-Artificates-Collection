@@ -81,21 +81,13 @@ Stores aggregated color and hue information extracted from artifact images (one 
 
 ## 🚀 How to Run the Project
 
-### 1️⃣ Install Dependencies
+### 1 Install Dependencies
 ```bash
 pip install -r requirements.txt
 ````
+---
 
-### 2️⃣ Configure Credentials
-
-Create a `config.py` file:
-
-```python
-HARVARD_API_KEY = "your_api_key_here"
-DATABASE_URL = "your_tidb_cloud_sqlalchemy_url"
-```
-
-### 3️⃣ Run the Application
+### 2 Run the Application
 
 ```bash
 streamlit run app.py
